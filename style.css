@@ -1,0 +1,103 @@
+body {
+    background-color: burlywood;
+    color: chocolate;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: normal;
+}
+
+h2 {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: normal;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+.image_circle {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+}
+
+.colored_card {
+    text-align: center;
+    /*width: 300px;*/
+    margin: 24px auto;
+    padding: 24px;
+    background-color: wheat;
+    box-shadow: 8px 8px rgb(182, 160, 131);
+    border-radius: 16px;
+}
+
+.colored_card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.colored_card li {
+    display: inline;
+    padding: 8px;
+}
+
+.colored_card i {
+    font-size: 20px;
+}
+
+.colored_card i:hover {
+    opacity: 0.5;
+}
+
+.btn_color {
+    background-color: brown;
+    color: rgb(228, 206, 206);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.btn_color:hover {
+    color: lightgrey;
+    opacity: 0.7;
+}
+
+@media (min-width: 960px) {
+    /* For a screen > 960px, this CSS will be read */
+    .container {
+        width: 800px;
+    }
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 300px;
+    }
+}
